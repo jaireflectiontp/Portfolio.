@@ -40,3 +40,27 @@
 .read-the-docs {
   color: #888;
 }
+
+.skillTab {
+  color: #fff;
+  padding: 0.2em;
+  width: 90px;
+  height: 90px;
+  display: grid;
+  place-items: center;
+  border-radius: 10px;
+  box-shadow: 13px 13px 3px 1px #1a003f9c;
+  border-top: 1px solid #aa6dff;
+  border-left: 1px solid #aa6dff;
+}
+.skillTab:hover {
+  background-color: aliceblue;
+  box-shadow: 13px 13px 3px 1px #51258f;
+  transition: 0.5s;
+}
+.even {
+  transform: translateX(-15px);
+}
+.odd {
+  transform: translateX(15px);
+}

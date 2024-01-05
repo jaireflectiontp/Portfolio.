@@ -1,11 +1,19 @@
 
 import './App.css'
+import { Menu } from './components'
+import { About, Contact, Education, Hero, Projects } from './views'
+
 
 function App() {
 
   return (
     <>
-      <h1 className='bg-red-700  text-sm'>helllo</h1>
+      <Menu />
+      <Hero />
+      <About />
+      <Education />
+      <Projects />
+      <Contact />
     </>
   )
 }
